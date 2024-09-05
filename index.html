@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="toggle-theme">
+            <label for="theme-switch">Modo Escuro</label>
+            <input type="checkbox" id="theme-switch">
+        </div>
+
+        <form class="login-form">
+            <h2>Login</h2>
+            <div class="input-group">
+                <label for="username">Nome de usuário</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <label for="remember-me">
+                    <input type="checkbox" id="remember-me" name="remember-me">
+                    Lembrar de mim
+                </label>
+            </div>
+            <button type="submit">Entrar</button>
+            <p class="forgot-password"><a href="#">Esqueceu a senha?</a></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
